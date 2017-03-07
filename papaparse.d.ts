@@ -2,14 +2,14 @@ import {
   ParseConfigWithHeader, ParseConfigWithoutHeader, ParseDownloadConfigWithHeader,
   ParseDownloadConfigWithoutHeader, ParseResultWithHeader, ParseResultWithoutHeader,
   UnparseConfig, UnparseData
-} from './interfaces';
+} from './interfaces/index';
 
 export {
   ParseConfigWithHeader, ParseConfigWithoutHeader, ParseDownloadConfigWithHeader,
   ParseDownloadConfigWithoutHeader, ParseError, Parser, ParseResultMetaWithHeader,
   ParseResultMetaWithoutHeader, ParseResultWithHeader, ParseResultWithoutHeader,
   UnparseConfig, UnparseData
-} from './interfaces';
+} from './interfaces/index';
 
 /**
  * Parse a csv string without headers.
